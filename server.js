@@ -19,7 +19,7 @@ switch(res.url) {
     path += 'about.html';
     res.statusCode = 200;
     break;
-  case '/about-me':
+  case '/about-blah':
     res.statusCode = 301;
     res.setHeader('Location', '/about');
     res.end();
