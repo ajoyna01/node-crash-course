@@ -1,12 +1,16 @@
 <html lang="en">
-<%- include("./partials/head.ejs") %>
+
 
 <body>
-  <%- include("./partials/nav.ejs") %>
+  
 
   <div class="blogs content">
+    <h1>Home</h1>
     <h2>All Blogs</h2>
-
+    <nav>
+      <a href="/">Homepage</a>
+      <a href="/about">About page</a>
+    </nav>
     <% if (blogs.length > 0) { %>
       <% blogs.forEach(blog => { %>
 
